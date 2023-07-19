@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: monospace;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(9, 4, 26);
+  display: grid;
+  place-items: center;
+  grid-template-rows: 1fr;
+}
+
+.container-calculator {
+  min-width: 60%;
+  min-height: 80%;
+  max-width: 60%;
+  max-height: 80%;
+  background-color: rgb(29, 13, 80);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  font-weight: 600;
+  overflow: hidden;
+}
+.container-calculator .propiedades-calculadora, .container-calculator .btn, .container-calculator .display-calculator {
+  background-color: rgb(17, 3, 68);
+  border-radius: 0.5rem;
+  color: #fff;
+}
+.container-calculator .display-calculator {
+  font-size: 6rem;
+  padding: 1rem;
+  display: grid;
+  grid-column: 1/-1;
+  overflow: hidden;
+  text-align: right;
+  align-items: center;
+}
+.container-calculator .btn {
+  border: 0;
+  font-size: 2rem;
+}
+.container-calculator .btn:hover {
+  background-color: rgb(65, 49, 121);
+  cursor: pointer;
+}
+.container-calculator #igual {
+  background-color: rgb(146, 13, 69);
+}
+.container-calculator #igual:hover {
+  background-color: rgb(173, 58, 106);
+}
+
+/*# sourceMappingURL=index.css.map */
