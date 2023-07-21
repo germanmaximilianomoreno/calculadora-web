@@ -8,13 +8,13 @@
 
 body {
   min-height: 100vh;
-  background: rgb(9, 4, 26);
+  background: rgb(6, 11, 31);
   display: grid;
   place-items: center;
 }
 
 .container-calculator {
-  background-color: rgb(29, 13, 80);
+  background-color: rgba(18, 46, 82, 0.699);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
@@ -25,7 +25,7 @@ body {
   margin: 40px;
 }
 .container-calculator .propiedades-calculadora, .container-calculator .btn, .container-calculator .display-calculator {
-  background-color: rgb(17, 3, 68);
+  background-color: rgb(7, 21, 48);
   border-radius: 0.5rem;
   color: #fff;
 }
@@ -44,7 +44,7 @@ body {
   padding: 20px 40px;
 }
 .container-calculator .btn:hover {
-  background-color: rgb(65, 49, 121);
+  background-color: rgb(31, 83, 143);
   cursor: pointer;
 }
 .container-calculator #igual {
